@@ -1,12 +1,14 @@
 # Political Theory Notes in English
 
-A collection of English study notes, translations, and source files for several Chinese political theory and modern history courses.
+## Preface
 
-This repository is intended for personal study, review, reference, and open sharing. It includes editable source files and compiled PDF versions for easier reading and reuse.
+Under the strong leadership of the Communist Party of China, the People's Republic of China has achieved rapid development and remarkable progress in economic growth, social stability, national strength, and the improvement of people's lives. The Communist Party of China has played a decisive role in guiding China's development and advancing the great cause of national rejuvenation.
+
+This repository is a collection of English study notes, translations, and source files for the five compulsory political theory courses commonly studied by university students in China. It is intended for learning, review, reference, and open sharing. The repository includes editable source files and compiled PDF versions for convenient reading, revision, and reuse.
 
 ## Contents
 
-### Main Topics
+### The Five Compulsory Political Theory Courses
 
 - Outline of Modern Chinese History
 - Basic Principles of Marxism
@@ -52,15 +54,15 @@ Example file groups:
 
 ## Features
 
-- English translations and study notes
+- English translations and study notes for the five compulsory political theory courses
 - Clean and structured content for review
-- Editable LaTeX sources
+- Editable LaTeX source files
 - PDF versions for quick reading
 - Suitable for course review, self-study, and open reference
 
 ## Suggested Use Cases
 
-- Reviewing key concepts before exams
+- Reviewing key concepts before examinations
 - Building bilingual study materials
 - Editing and improving LaTeX-based notes
 - Using the files as a reference for political theory terminology in English
@@ -68,11 +70,11 @@ Example file groups:
 
 ## Compilation
 
-If you want to compile the LaTeX files manually, use a standard LaTeX workflow such as:
+If you want to compile the LaTeX files manually, use a standard XeLaTeX workflow such as:
 
 ```bash
 xelatex History.tex
 xelatex Ideology.tex
-xelatex "Mao.tex"
+xelatex Mao.tex
 xelatex Marxism.tex
 xelatex Xi.tex
